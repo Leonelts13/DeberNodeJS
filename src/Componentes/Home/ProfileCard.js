@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
         //borderBottomRightRadius: 0,
     },
     name: {
-        fontSize: 30,
+        fontSize: 25,
         marginTop: 10,
         color: 'black', // Cambia al color que desees
         fontWeight: 'bold', //  ajustar el peso de la fuente

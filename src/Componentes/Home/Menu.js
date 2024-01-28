@@ -4,7 +4,7 @@ import ProfileCard from "./ProfileCard";
 
 const Menu=()=>{
     return (
-        <View>
+        <View style={{ flex: 1 }}>
             <ProfileCard/>
         </View>
     )
