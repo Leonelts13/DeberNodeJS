@@ -3,11 +3,11 @@ import { View, Text, Image, StyleSheet, Platform, Linking, TouchableWithoutFeedb
 import Icon from "react-native-vector-icons/FontAwesome";
 import Icon2 from "react-native-vector-icons/FontAwesome6";
 
-const telegram = <Icon name={'telegram'} size={35} color={'#0088cc'} />
-const twitch = <Icon name={'twitch'} size={35} color={'#6441a5'} />
-const pinterest = <Icon name={'pinterest'} size={35} color={'#c8232c'} />
-const reddit = <Icon name={'reddit'} size={35} color={'#FF5700'} />
-const discord = <Icon2 name={'discord'} size={35} color={'#7289da'} />
+const telegram = <Icon name={'telegram'} size={40} color={'#0088cc'} />
+const twitch = <Icon name={'twitch'} size={40} color={'#6441a5'} />
+const pinterest = <Icon name={'pinterest'} size={40} color={'#c8232c'} />
+const reddit = <Icon name={'reddit'} size={40} color={'#FF5700'} />
+const discord = <Icon2 name={'discord'} size={40} color={'#7289da'} />
 const ProfileCard = () => {
     const user = {
         coverPhoto: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
 
     },
     avatarContainer: {
-        marginTop: -50,//alineamos la imagen con el borde superior
+        marginTop: -40,//alineamos la imagen con el borde superior
         width: '100%',
         height: '75%',
         alignItems: 'center',
